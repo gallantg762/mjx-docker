@@ -71,7 +71,7 @@ docker run --rm \
 | Python | 3.8 |
 | CMake | 3.16 (apt) |
 | protobuf | 3.20.2 |
-| mjx | latest master |
+| mjx commit | fcdac0e |
 
 ## Notes
 
