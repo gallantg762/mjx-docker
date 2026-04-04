@@ -48,4 +48,6 @@ RUN pip install --no-cache-dir --no-build-isolation .
 WORKDIR /workspace
 COPY smoke_test.py .
 
+RUN pip install --no-cache-dir torch
+
 CMD ["python3", "smoke_test.py"]
